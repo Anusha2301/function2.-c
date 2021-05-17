@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<stdlib.h>
+Void main() 
+{
+ int i,j,flag=0;
+ Clrscr();
+ Printf("Enter no");
+ Scanf("%d",&n);
+ for(i=2;i<=n/2;i++) 
+ {
+   if(n%1==0) 
+ {
+  Printf("Number is not prime number");
+  flag=0;
+  break;
+ }
+}
+  if(flag==0) 
+  Printf("Number is prime");
+  getch();
+}
+
